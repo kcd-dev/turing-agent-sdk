@@ -1,0 +1,26 @@
+{
+  "name": "turing-agent-sdk",
+  "version": "1.1.7",
+  "description": "Turing Agent SDK: Claude Agent SDK-compatible programmatic agent interface for Turing Code.",
+  "type": "module",
+  "main": "sdk.mjs",
+  "types": "sdk.d.ts",
+  "exports": {
+    ".": {
+      "types": "./sdk.d.ts",
+      "default": "./sdk.mjs"
+    }
+  },
+  "files": [
+    "README.md",
+    "sdk.mjs",
+    "sdk.d.ts"
+  ],
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.87"
+  },
+  "license": "UNLICENSED"
+}
